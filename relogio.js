@@ -13,7 +13,7 @@ function doisdigitos(digit){//função criada para quando cada par de digito for
 
 function start(){//funcao chamada quando botao iniciar é clicado 
     contador()
-    intervalo=setInterval(contador,1)//função setInterval chamando função contador a cada periodo de tempo, sendo esse tempo correspondente a 1 segundo
+    intervalo=setInterval(contador,1000)//função setInterval chamando função contador a cada periodo de tempo, sendo esse tempo correspondente a 1 segundo
 }
 
 function pause(){
