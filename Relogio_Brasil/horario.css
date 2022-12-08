@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{/* centralização e background*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(95deg, rgb(148, 224, 62), green);
+}
+
+.relogio{/*centralização, background, tamanhos e sombra*/
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    height: 200px;
+    background: linear-gradient(95deg,rgb(212, 224, 62), yellow);
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px rgba(64, 75, 2, 0.8);
+}
+
+.relogio div{/*centralização, tamanhos, background e sombra*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 160px;
+    background: blue;
+    color: #fff;
+    box-shadow: 4px 6px 10px rgba(64, 75, 2, 0.8);
+    border-radius: 360px;
+    text-shadow: 4px 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+.relogio span{/*estilização de caracteres*/
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.horario{/*tamnho de letra*/
+    font-size: 20px;
+}
+
+span{/*tempo que demora pra a animação da opacidade ser concluida*/
+    transition: 0.9s;
+}
+
+span:hover{/*opacidade*/
+    opacity: 0.7;
+}
+
